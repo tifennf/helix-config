@@ -1,0 +1,24 @@
+theme = "melange"
+
+
+[editor]
+line-number = "relative"
+bufferline = "multiple"
+cursorline = true
+
+[editor.lsp]
+display-inlay-hints = false
+
+[editor.indent-guides]
+render = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.soft-wrap]
+enable = true
+
+[keys.normal]
+C-s = ":w"
