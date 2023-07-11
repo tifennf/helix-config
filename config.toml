@@ -3,7 +3,7 @@ theme = "melange"
 
 [editor]
 line-number = "relative"
-bufferline = "multiple"
+# bufferline = "multiple"
 cursorline = true
 
 [editor.lsp]

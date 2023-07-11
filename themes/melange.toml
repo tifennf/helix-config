@@ -9,10 +9,10 @@
 "ui.cursor.match" = { modifiers = [
     "bold",
 ], underline = { style = "line" } }
-"ui.cursor" = { modifiers = ["reversed"] }
+"ui.cursor" = {  modifiers = ["reversed"] }
 
 "ui.selection" = { bg = "sel"}
-"ui.highlight.frameline" = { bg = "#634450" }
+# "ui.highlight.frameline" = { bg = "#634450" }
 "ui.debug" = { fg = "#634450" }
 "ui.debug.breakpoint" = { fg = "red2" }
 "ui.menu" = { fg = "fg", bg = "float" }
@@ -71,7 +71,7 @@ punctuation = "red2"
 "diagnostic.warning" = { underline = { color = "yellow1", style = "curl" } }
 "diagnostic.error" = { underline = { color = "red2", style = "curl" } }
 
-"error" = { fg = "red2"}
+"error" = { fg = "red3"}
 "info" = { fg = "blue2"}
 "warning" = { fg = "yellow1"}
 "hint" = { fg = "com"}

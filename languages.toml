@@ -70,7 +70,7 @@ auto-format = true
 comment-token = "//"
 language-server = { command = "gopls" }
 # TODO: gopls needs utf-8 offsets?
-indent = { tab-width = 4, unit = "    " }
+indent = { tab-width = 4, unit = "\t" }
 
 [[grammar]]
 name = "go"
